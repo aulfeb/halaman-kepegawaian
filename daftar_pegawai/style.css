@@ -1,0 +1,36 @@
+   /* Style modal */
+   .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0; /* Adjust the position from right */
+    top: 20px; /* Adjust the position from top */
+    width: 300px;
+    max-width: 50%; /* Ensure modal doesn't exceed screen width */
+    height: auto;
+    overflow: auto;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
